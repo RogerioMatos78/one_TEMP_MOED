@@ -28,7 +28,6 @@ public class executaTM {
 	public executaTM() {
 		initialize();
 	}
-
 	
 	private void initialize() {
 		frameTela = new JFrame();
@@ -39,8 +38,7 @@ public class executaTM {
 		executarConversor();
 		frameTela.dispose();
 	}
-	
-	
+		
 	private void executarConversor( ) {
 		String type = (JOptionPane.showInputDialog(null, "Escolha uma opção:","Menu de Conversão",
 				JOptionPane.PLAIN_MESSAGE, null, new Object[] {"Converter Moedas", "Converter Temperatura"},null)).toString();
